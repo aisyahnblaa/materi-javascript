@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undefined</title>
+</head>
+<body>
+    <h1>Belajar Undifined</h1>
+    <br>
+    <h1 id="un" style="color: blue;"></h1>
+
+    <script>
+        // undifined itu variabelnya ada tapi isinya atau valuenya nggak ada
+
+        // kalau null itu variabelnya ada, isinya ada tapi isinya null atau outputnya kosong
+        // let a;
+
+        // document.getElementById("un").innerHTML = a;
+
+         // undefined (variabel)
+        //  let umur = false;
+
+        //  let data = umur;
+
+        //  if(umur === undefined){
+        //  data = "Bener Undefined"
+        //  }else{
+        //  data = "Bukan Undefined";
+        //  }
+
+        // document.getElementById("un").innerHTML = data;
+
+        // undefined Array Value
+        // const bias = ["DO", "peceye", "jk", "v"];
+        // let data = bias; ->cuma buat meminimalisir ketypo an,klo gada ini dia harus manual,krn gabisa dipanggil
+
+        // if(bias[3] === undefined){
+        //     data = "biasnya nggak nemu" ;
+        // }else{
+        //     data = "Biasnya ada" ;
+        // }
+
+        // document.getElementById("un").innerHTML = data;
+        // array cuma buat isi value nya apa tapi langsung aja trs klo array pake[],klo data objek dia ada pake properti trs pake{}
+
+        // undefined Data Objek
+        const mhs = {};
+
+        if(mhs.nama === undefined){
+            data = "Data objek undefined";
+        }else{
+            data = "data objek ketemu";
+        }
+
+        document.getElementById("un").innerHTML = data;
+    </script>
+
+</body>
+</html>

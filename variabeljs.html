@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variabel Javascript</title>
+</head>
+<body>
+    <h1>Variabel Lokal dan Publik Javascript</h1>
+    <h2>A.Variabel Lokal</h2>
+    <p id="lokal"></p>
+
+    <h2>B.Variabel Publik</h2>
+    <p id="Publik"></p>
+
+    <script>
+        variabelLokal();
+        variabelPublik();
+
+        function variabelLokal(){
+            var kata="ini adalah variabel lokal";
+
+            console.log(kata);
+            document.getElementById("lokal").innerHTML = kata;
+        }
+
+        function variabelPublik(){
+            kalimat="ini adalah variabel publik";
+
+        }
+
+        console.log(kalimat);
+        document.getElementById("Publik").innerHTML = kalimat;
+    </script>
+
+</body>
+</html>
